@@ -1,5 +1,12 @@
-# quip-hello-vue
-This is a port of the [Quip jquery stub](https://github.com/quip/quip-apps/tree/master/examples/jquery-stub), using [VueJS](https://vuejs.org/).
+# quip-whiteboard-vue
+
+*MAJOR WORK IN PROGRESS*
+
+This is a virtual, shared whiteboard, using [VueJS](https://vuejs.org/).  It is designed to be embedded in a Quip document.  It uses a [Quip RecordList](https://salesforce.quip.com/dev/liveapps/documentation#recordlist) to keep track of the objects in the document.
+
+Currently supports a few shapes and free-form drawing, a few colors, and various levels of transparency.
+
+*MAJOR WORK IN PROGRESS*
 
 ## Important Information
 
@@ -7,8 +14,8 @@ Check out my [Getting Started Guide](https://github.com/herrevilkitten/quip-gett
 
 ## Installation
 ```
-git clone https://github.com/herrevilkitten/quip-hello-vue
-cd quip-hello-vue
+git clone https://github.com/herrevilkitten/quip-whiteboard-vue
+cd quip-whiteboard-vue
 npm install
 ```
 
